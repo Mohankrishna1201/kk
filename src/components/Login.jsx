@@ -8,7 +8,7 @@ export default function HomeF() {
 
     const handleLogin = async () => {
         try {
-            const response = await Axios.post('/login', {
+            const response = await axios.post('https://finaldashboard-ug97.onrender.com/login', {
                 username,
                 password,
             });
